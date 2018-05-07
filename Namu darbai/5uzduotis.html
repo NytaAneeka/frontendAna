@@ -11,6 +11,7 @@
 
 	}
 	.container {
+		font-family: "Georgia";
 		height: 1860px;
 		width: 1000px;
 		background: white;
@@ -62,7 +63,8 @@
 		background-color: white;
 		overflow: hidden;
 		margin-left: 20px;
-    	margin-right: 20px;
+		margin-right: 20px;
+		margin-top: -80px;
 	}
 	.navcontainerheading{
 		height: 54px;
@@ -85,10 +87,102 @@
 		font-size: 36px;
 	}
 
-	.searchbutton {
-		/**width: 215px;
-		height: 30px;**/
+	.searchcontainer {
 		float: right;
+		font-family: "Georgia";
+		font-size: 12px;
+		margin-top: -12px;
+		margin-left: 516px;
+	}
+
+	input{
+		color: #999999;
+		background-color:#f1f1f1;
+		border:none;
+		height:30px;
+		width:215px;
+		border-radius: 5px;
+		padding-left: 7px;
+		font-family: "Georgia";
+		font-size: 12px;
+		font-weight: normal;
+		margin-right: 2px;
+
+	}
+	button {
+		height:30px;
+		width:68px;
+		border-radius: 5px;
+		font-size: 12px;
+		font-weight: normal;
+		font-family: "Georgia";
+		background-color: #0099ff;
+		border: none;
+		color:white;
+	}
+	.topnav {
+		background-color:white;
+		display: inline-block;
+		margin-left: 10px;
+		width:960px;
+		text-align: left;
+	}
+	.topnav a {
+		float: left;
+		display: inline-block;
+		color:black;
+		font-family: "Georgia";
+		font-size: 14px;
+		padding: 40px 10px 20px;
+		border-bottom: 5px solid #f1f1f1;
+		text-align: left;
+	}
+	.topnav a:hover {
+		border-bottom: 5px solid #0099ff;
+	}
+	.topnav a.active {
+		border-bottom: 5px solid #0099ff;
+	}	
+	.maincontent {
+		height: 1130px;
+		width:1000px;
+	}
+	.describtion {
+		padding-left: 10px;
+		margin-top: 20px;
+		height: 450px;
+		background-color:#f1f1f1;
+		border-top:5px solid #e9e9e9;
+		border-bottom: 10px solid #e9e9e9;
+
+	}
+	.description h1 {
+		text-align: center;
+		float: left;
+		color:black;
+		display: block; 
+		width:430px;
+		height:450px;
+	}
+	.text {
+		height:450px;
+		margin-left:10px;
+		width:430px;
+		text-align: left;
+		float: left;
+		color:black;
+		display: block; 
+		
+	}
+	.readmorebutton {
+		background-color:#0099ff;
+		color: white;
+		text-align: center;
+		text-decoration:none;
+		display: inline-block;
+		font-size: 16px;
+		border-radius: 5px;
+
 	}
 
 </style>
@@ -114,25 +208,44 @@
 
 	</header>
 	
+	<div class="topnav">
+		<a class="active" href="#home">HOMEPAGE</a>
+		<a href="#style">STYLE DEMO</a>
+		<a href="#width">FULL WIDTH</a>
+		<a href="#drop">DROPDOWN</a>
+		<a href="#gallery">GALLERY</a>
+		<a href="#portfolio">PORTFOLIO</a>
+		<a href="#linktext">LINK TEXT</a>
+		<a href="#longlink">LONG LINK TEXT</a>
+	</div>
+
 	<div class="container">
 		<div class="navcontainer">
 			<div class="navcontainerheading">
 				<h1>NobodysFool</h1>
 				<p>Free PSD Website Template</p>
-				<div class="searchbutton">
-				<form action="/action_page.php">
-					<input type="text" placeholder="Search Our Website..." name="search">
-					<button type="submit">Search</button>
-				</form>
+				<div class="searchcontainer">
+					<form action="/action_page.php">
+						<input type="text" placeholder="Search Our Website..." name="search">
+						<button type="submit">SEARCH</button>
+					</form>
 
+				</div>
 			</div>
-			</div>
-
-			
 		</div>
-
+		<div class="maincontent">
+			<div class="describtion">
+				<div class="text">
+					<h1>Your title can be long and descriptive</h1>
+					<p>Cursuspenatisaccum ut curabitur nulla tellus tor ames a in curabitur pede. Idet mollisi eros dis orci congue elis et curabitur.</p>
+				</div>
+				<button class="readmorebutton">
+					READ MORE
+				</button>
+			</div>
+		</div>
 	</div>
-
+	
 </body>
 
 </html>
