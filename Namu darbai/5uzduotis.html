@@ -22,6 +22,7 @@
 		height: 60px;
 		background: #2e2e2e;
 		color: #9f9f9f;
+
 	}
 	ul, li {
 		margin-top: 12px;
@@ -142,15 +143,20 @@
 		font-family: "Georgia";
 		font-size: 14px;
 		padding: 40px 10px 20px;
-		border-bottom: 5px solid #f1f1f1;
-		text-align: left;
 	}
 	.topnav a:hover {
 		border-bottom: 5px solid #0099ff;
 	}
 	.topnav a.active {
 		border-bottom: 5px solid #0099ff;
+
 	}	
+	.topnavborder {
+		border-bottom: 5px solid #f1f1f1;
+		margin-top: 76px;
+		margin-right: -10px;
+		margin-left: 10px;
+	}
 	.maincontent {
 		height: 1130px;
 		width:1000px;
@@ -172,16 +178,22 @@
 		width:430px;
 		height:450px;
 	}
+
 	.text {
 		height:450px;
 		margin-left:10px;
-		width:430px;
+		width:380px;
 		text-align: left;
 		float: left;
 		color:black;
 		display: block; 
-		
+		padding-top: 100px;
 	}
+
+	.text h1, p {
+		text-align: left;
+	}
+
 	.readmorebutton {
 		background-color:#0099ff;
 		color: white;
@@ -190,7 +202,32 @@
 		display: inline-block;
 		font-size: 16px;
 		border-radius: 5px;
+		width: 35%;
+		height: 7%;
+	}
+	.readmorebutton a{
+		color:white;
+	}
 
+	.readmorebutton i{
+		margin-left: 7px;
+	}
+	.fakecarousel {
+		height:440px;
+		width:550px;
+		background-color: #333333;
+		float:right;
+		margin-top: 10px;
+		margin-right: 20px;
+	}
+	.fakecarousel i {
+		margin-top: 405px;
+	}
+	.carouseldots {
+		margin-left: 20px;
+	}
+	.carouseldots a {
+		color: black;
 	}
 
 </style>
@@ -225,7 +262,9 @@
 		<a href="#portfolio">PORTFOLIO</a>
 		<a href="#linktext">LINK TEXT</a>
 		<a href="#longlink">LONG LINK TEXT</a>
+		<div class="topnavborder"></div>
 	</div>
+
 
 	<div class="container">
 		<div class="navcontainer">
@@ -246,11 +285,20 @@
 				<div class="text">
 					<h1>Your title can be long and descriptive</h1>
 					<p>Cursuspenatisaccum ut curabitur nulla tellus tor ames a in curabitur pede. Idet mollisi eros dis orci congue elis et curabitur.</p>
+					<button class="readmorebutton"><a href="#readmore">READ MORE</a><i class="fas fa-angle-double-right fa-xs"></i>
+					</button>
 				</div>
-				<button class="readmorebutton">
-					READ MORE
-				</button>
+				<div class="fakecarousel">
+					<div class="carouseldots">
+						<a href="#1pic"><i class="fas fa-circle"></i></a>
+						<a href="#2pic"><i class="fas fa-circle"></i></a>
+						<a href="#3pic"><i class="fas fa-circle"></i></a>
+						<a href="#4pic"><i class="fas fa-circle"></i></a>
+						<a href="#5pic"><i class="far fa-circle"></i></a>
+					</div>
+				</div>
 			</div>
+			
 		</div>
 	</div>
 	
