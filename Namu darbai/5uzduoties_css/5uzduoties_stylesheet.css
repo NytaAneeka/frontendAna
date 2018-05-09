@@ -1,238 +1,329 @@
 body{
-		font-family: "Georgia";
-		height: 1860px;
-		width: 1000px;
-		margin:auto;
+	font-family: "Georgia";
+	height: 1860px;
+	width: 1000px;
+	margin:auto;
 
-	}
-	.container {
-		font-family: "Georgia";
-		height: 1860px;
-		width: 1000px;
-		background: white;
-
-
-	}
-	header{
-		height: 60px;
-		background: #2e2e2e;
-		color: #9f9f9f;
-
-	}
-	ul, li {
-		margin-top: 12px;
-		padding-left: 10px;
-		float: left;
-	}
-	a{
-		text-decoration: none;
-		color: #9f9f9f;
-	}
-	.headermenu{
-		font-size: 12px;
-		list-style-type: none;
-		text-align: center;
-	}
-	.headermenu a:hover{
-		border-bottom:3px solid #db4a39;
-	}
-	.dotcontainer {
-		text-align: center;
-		margin-right: 10px;
-	}
-	.dot {
-		height: 32px;
-		width: 32px;
-		background-color: #787878;
-		border-radius: 50%;
-		display: inline-block;
-		float:right;
-		margin-top: 14px;
-		margin-right: 10px;
-	}
-	.dot i {
-		color: white;
-		text-align: center;
-		width: 32px;
-		height: 32px;
-		margin-top: 8px;
-	}
-	.dot:hover{
-		background-color: #db4a39;
-	}
-	.navcontainer {
-		height: 220px;
-		background-color: white;
-		overflow: hidden;
-		margin-left: 20px;
-		margin-right: 20px;
-		margin-top: -80px;
-	}
-	.navcontainerheading{
-		height: 54px;
-		margin-top: 120px;
+}
+.container {
+	font-family: "Georgia";
+	height: 1860px;
+	width: 1000px;
+	background: white;
 
 
-	}
-	.navcontainerheading p {
-		color:#999999;
-		font-size: 12px;
-		margin-top: -16px;
-		display: inline-block;
-	}
+}
+header{
+	height: 60px;
+	background: #2e2e2e;
+	color: #9f9f9f;
 
+}
+ul, li {
+	margin-top: 12px;
+	padding-left: 10px;
+	float: left;
+}
+a{
+	text-decoration: none;
+	color: #9f9f9f;
+}
+.headermenu{
+	font-size: 12px;
+	list-style-type: none;
+	text-align: center;
+}
+.headermenu a:hover{
+	border-bottom:3px solid #db4a39;
+}
+.dotcontainer {
+	text-align: center;
+	margin-right: 10px;
+}
+.dot {
+	height: 32px;
+	width: 32px;
+	background-color: #787878;
+	border-radius: 50%;
+	display: inline-block;
+	float:right;
+	margin-top: 14px;
+	margin-right: 10px;
+}
+.dot i {
+	color: white;
+	text-align: center;
+	width: 32px;
+	height: 32px;
+	margin-top: 8px;
+}
+.dot:hover{
+	background-color: #db4a39;
+}
+.navcontainer {
+	height: 220px;
+	background-color: white;
+	overflow: hidden;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: -80px;
+}
+.navcontainerheading{
+	height: 54px;
+	margin-top: 120px;
+
+
+}
+.navcontainerheading p {
+	color:#999999;
+	font-size: 12px;
+	margin-top: -16px;
+	display: inline-block;
+}
+
+
+h1 {
+	margin-bottom: 10px;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 36px;
+}
+
+.searchcontainer {
+	float: right;
+	font-family: "Georgia";
+	font-size: 12px;
+	margin-top: -12px;
+	margin-left: 516px;
+}
+
+input{
+	color: #999999;
+	background-color:#f1f1f1;
+	border:none;
+	height:30px;
+	width:215px;
+	border-radius: 5px;
+	padding-left: 7px;
+	font-family: "Georgia";
+	font-size: 12px;
+	font-weight: normal;
+	margin-right: 2px;
+
+}
+button {
+	height:30px;
+	width:68px;
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: normal;
+	font-family: "Georgia";
+	background-color: #0099ff;
+	border: none;
+	color:white;
+}
+button:hover{ background-color:#333333; }
+
+.topnav {
+	background-color:white;
+	display: inline-block;
+	margin-left: 10px;
+	width:960px;
+	text-align: left;
+}
+.topnav a {
+	float: left;
+	display: inline-block;
+	color:black;
+	font-family: "Georgia";
+	font-size: 14px;
+	padding: 40px 10px 20px;
+}
+.topnav a:hover {
+	border-bottom: 5px solid #0099ff;
+}
+.topnav a.active {
+	border-bottom: 5px solid #0099ff;
+
+}	
+.topnavborder {
+	border-bottom: 5px solid #f1f1f1;
+	margin-top: 76px;
+	margin-right: -10px;
+	margin-left: 10px;
+}
+.maincontent {
+	height: 1130px;
+	width:1000px;
+}
+.describtion {
+	padding-left: 10px;
+	margin-top: 20px;
+	height: 450px;
+	background-color:#f1f1f1;
+	border-top:5px solid #e9e9e9;
+	border-bottom: 10px solid #e9e9e9;
+
+}
+.description h1 {
+	text-align: center;
+	float: left;
+	color:black;
+	display: block; 
+	width:430px;
+	height:450px;
+}
+
+.text {
+	height:450px;
+	margin-left:10px;
+	width:380px;
+	text-align: left;
+	float: left;
+	color:black;
+	display: block; 
+	padding-top: 100px;
+}
+
+.readmorebutton {
+	background-color:#0099ff;
+	color: white;
+	text-align: center;
+	text-decoration:none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 5px;
+	width: 35%;
+	height: 7%;
+}
+.readmorebutton a{
+	color:white;
+}
+
+.readmorebutton i{
+	margin-left: 7px;
+}
+.fakecarousel {
+	height:440px;
+	width:550px;
+	background-color: #333333;
+	float:right;
+	margin-top: 10px;
+	margin-right: 20px;
+
+}
+.fakecarousel img{
+	height:440px;
+	width:550px;
+}
+.fakecarousel i {
+	margin-top: 405px;
+}
+.carouseldots {
+	margin-left: 20px;
+}
+.carouseldots a {
+	color: black;
+}
+.secondarycontent {
+	height:666px;
+	width:1000px;
+	display:inline-block;
+	float:left;
+}
+.devices {
+	height:425px;
+	width:470px;
+	margin-left: 20px;
+	float:left;
+}
+.devices img {
+	margin-top: -50px;
+	height:425px;
+	width:100%;
+	float:left;
+}
+.columncontainer {
+	margin-top: -60px;
+	height:425px;
+	margin:0;
+	display:inline-block;
+	float:right;
+}
+.fourcolumns {
+
+	float: right;
+	width:225px;
+	height: 228px;
+	text-align:center;
+	padding:10px;
+	float:left;
+
+
+}
+.row {
+	margin-top: -60px;
+	margin-right: 5px;
+	height:425px;
+	font-size: 13px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+	height:225px;
+
+}
+.columncontainer h1:hover {
+	color:#333333;
+}
+.fourcolumns h1 {
 	
-	h1 {
-		margin-bottom: 10px;
-		text-decoration: none;
-		font-weight: normal;
-		font-size: 36px;
-	}
+	font-size:16px;
+	color:#0099ff;
+}
 
-	.searchcontainer {
-		float: right;
-		font-family: "Georgia";
-		font-size: 12px;
-		margin-top: -12px;
-		margin-left: 516px;
-	}
+.columncontainer img {
+	height:80px;
+	width:85px;
+	margin-bottom: -5px;
+}
+.advert {
+	height:120px;
+	width:960px;
+	background-color:#e0e0e0;
+	clear:both;
+	border-left:10px solid #0099ff;
+	margin-left:20px;
+	margin-bottom: 40px;
+}
+.advert p{
+	font-size: 18px;
+}
+.advert h1 {
+	padding-left:30px;
+	padding-top: 25px;
+}
+.advert p {
+	margin-top: -5px;
+	padding-left:30px;
 
-	input{
-		color: #999999;
-		background-color:#f1f1f1;
-		border:none;
-		height:30px;
-		width:215px;
-		border-radius: 5px;
-		padding-left: 7px;
-		font-family: "Georgia";
-		font-size: 12px;
-		font-weight: normal;
-		margin-right: 2px;
+}
+.advertbutton {
+	background-color:#0099ff;
+	font-size:26px;
+	color:#ded5d5;
+	border-radius: 5px;
+	float:right;
+	width:280px;
+	height:58px;
+	margin-right: 38px;
+	margin-top: -45px;
 
-	}
-	button {
-		height:30px;
-		width:68px;
-		border-radius: 5px;
-		font-size: 12px;
-		font-weight: normal;
-		font-family: "Georgia";
-		background-color: #0099ff;
-		border: none;
-		color:white;
-	}
-	button:hover{ background-color:#333333; }
-
-	.topnav {
-		background-color:white;
-		display: inline-block;
-		margin-left: 10px;
-		width:960px;
-		text-align: left;
-	}
-	.topnav a {
-		float: left;
-		display: inline-block;
-		color:black;
-		font-family: "Georgia";
-		font-size: 14px;
-		padding: 40px 10px 20px;
-	}
-	.topnav a:hover {
-		border-bottom: 5px solid #0099ff;
-	}
-	.topnav a.active {
-		border-bottom: 5px solid #0099ff;
-
-	}	
-	.topnavborder {
-		border-bottom: 5px solid #f1f1f1;
-		margin-top: 76px;
-		margin-right: -10px;
-		margin-left: 10px;
-	}
-	.maincontent {
-		height: 1130px;
-		width:1000px;
-	}
-	.describtion {
-		padding-left: 10px;
-		margin-top: 20px;
-		height: 450px;
-		background-color:#f1f1f1;
-		border-top:5px solid #e9e9e9;
-		border-bottom: 10px solid #e9e9e9;
-
-	}
-	.description h1 {
-		text-align: center;
-		float: left;
-		color:black;
-		display: block; 
-		width:430px;
-		height:450px;
-	}
-
-	.text {
-		height:450px;
-		margin-left:10px;
-		width:380px;
-		text-align: left;
-		float: left;
-		color:black;
-		display: block; 
-		padding-top: 100px;
-	}
-
-	.text h1, p {
-		text-align: left;
-	}
-
-	.readmorebutton {
-		background-color:#0099ff;
-		color: white;
-		text-align: center;
-		text-decoration:none;
-		display: inline-block;
-		font-size: 16px;
-		border-radius: 5px;
-		width: 35%;
-		height: 7%;
-	}
-	.readmorebutton a{
-		color:white;
-	}
-
-	.readmorebutton i{
-		margin-left: 7px;
-	}
-	.fakecarousel {
-		height:440px;
-		width:550px;
-		background-color: #333333;
-		float:right;
-		margin-top: 10px;
-		margin-right: 20px;
-	}
-	.fakecarousel i {
-		margin-top: 405px;
-	}
-	.carouseldots {
-		margin-left: 20px;
-	}
-	.carouseldots a {
-		color: black;
-	}
-	.secondarycontent {
-		height:506px;
-		width:1000px;
-	}
-	.devices {
-		height:506px;
-		width:490px;
-		margin-left: 20px;
-	}
-	.devices img {
-		margin-top: -50px;
-	}
+}
+.footer {
+	background-color:#1a1a1a;
+	height:390px;
+	width:1000px;
+}
