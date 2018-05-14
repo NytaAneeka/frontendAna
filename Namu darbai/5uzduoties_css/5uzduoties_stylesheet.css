@@ -7,7 +7,6 @@ body{
 }
 .container {
 	font-family: "Georgia";
-	height: 1860px;
 	width: 1000px;
 	background: white;
 
@@ -47,8 +46,7 @@ a{
 	border-radius: 50%;
 	display: inline-block;
 	float:right;
-	margin-top: 14px;
-	margin-right: 10px;
+	margin:14px 10px 0 0;
 }
 .dot i {
 	color: white;
@@ -64,9 +62,7 @@ a{
 	height: 220px;
 	background-color: white;
 	overflow: hidden;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-top: -80px;
+	margin:-80px 20px 0 20px;
 }
 .navcontainerheading{
 	height: 54px;
@@ -97,8 +93,7 @@ h5 {
 	float: right;
 	font-family: "Georgia";
 	font-size: 12px;
-	margin-top: -12px;
-	margin-left: 516px;
+	margin:-12px 0 0 516px;
 }
 
 input{
@@ -152,9 +147,7 @@ button:hover{ background-color:#333333; }
 }	
 .topnavborder {
 	border-bottom: 5px solid #f1f1f1;
-	margin-top: 76px;
-	margin-right: -10px;
-	margin-left: 10px;
+	margin:76px -10px 0 10px;
 }
 .maincontent {
 	height: 1130px;
@@ -212,8 +205,7 @@ button:hover{ background-color:#333333; }
 	width:550px;
 	background-color: #333333;
 	float:right;
-	margin-top: 10px;
-	margin-right: 20px;
+	margin:10px 20px 0 0;
 
 }
 .fakecarousel img{
@@ -266,8 +258,7 @@ button:hover{ background-color:#333333; }
 
 }
 .row {
-	margin-top: -60px;
-	margin-right: 5px;
+	margin:-60px 5px 0 0;
 	height:425px;
 	font-size: 13px;
 }
@@ -299,15 +290,13 @@ button:hover{ background-color:#333333; }
 	background-color:#e0e0e0;
 	clear:both;
 	border-left:10px solid #0099ff;
-	margin-left:15px;
-	margin-bottom: 40px;
+	margin:0 0 40px 15px;
 }
 .advert p{
 	font-size: 18px;
 }
 .advert h1 {
-	padding-left:30px;
-	padding-top: 25px;
+	padding:25px 0 0 30px;
 }
 .advert p {
 	margin-top: -5px;
@@ -322,8 +311,7 @@ button:hover{ background-color:#333333; }
 	float:right;
 	width:280px;
 	height:58px;
-	margin-right: 38px;
-	margin-top: -45px;
+	margin:-45px 38px 0 0;
 
 }
 .footer {
@@ -342,8 +330,7 @@ button:hover{ background-color:#333333; }
 	float: left;
 	width: 230px;
 	height: 391px;
-	margin-top:15px;
-	margin-right:5px;
+	margin:15px 5px 0 0;
 }
 .lastcolumns img {
 	height:90px;
@@ -386,31 +373,29 @@ button:hover{ background-color:#333333; }
 	margin-top: -10px;
 }
 .lastcolumns input {
-    width: 215px;
-    height: 31px;
-    border: none;
-    background-color:#232323;
-    color:#989898;
-    padding:0;
-    margin-bottom: 10px;
-    padding-left:10px;
+	width: 215px;
+	height: 31px;
+	border: none;
+	background-color:#232323;
+	color:#989898;
+	padding:0 0 0 10px;
+	margin-bottom: 10px;
 
-    }
-    textarea {
-    width: 225px;
-    height: 110px;
-    padding-left: 10px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-    border: none;
-    background-color: #232323;
-    font-size: 13px;
-    resize: none;
-    color:#989898;
+}
+textarea {
+	width: 225px;
+	height: 110px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	border: none;
+	background-color: #232323;
+	font-size: 13px;
+	resize: none;
+	color:#989898;
 }
 .form {
-	margin-top: -10px;
-	margin-left: 20px;
+	margin: -10px 0 0 20px;
 }
 .form button {
 	width:76px;
@@ -426,12 +411,11 @@ footer {
 }
 footer p {
 	float:left;
-	margin-top: 22px;
-    margin-left: 20px;
+	margin: 22px 0 0 20px;
 }
 
 
 
- 
+
 
 
