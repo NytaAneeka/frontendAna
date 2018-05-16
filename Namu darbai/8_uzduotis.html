@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="8_uzduotiesCSS/8_UzduotiesCSS.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
     <meta charset="UTF-8">
@@ -26,7 +27,101 @@
 
 <div class="menupg">
     <h1>THE MENU</h1>
+
+    <div id="menu">
+
+       <!-- <ul class="menu">
+            <li class="header"><a href="#pizza" class="active">Pizza</a></li>
+            <li class="header"><a href="#salad">Salads</a></li>
+            <li class="header"><a href="#starter">Starter</a></li>
+        </ul>!-->
+
+        <div class="headertwo">
+            <a href="pizza" class="active">Pizza</a>
+            <a href="salad">Salads</a>
+            <a href="starter">Starter</a>
+        </div>
+
+        <dl>
+            <dt class="food">Margherita <span class="price">$12.50</span></dt>
+            <dd class="describtion">Fresh tomatoes, fresh mozzarella, fresh basil</dd>
+
+            <dt class="food">Formaggio<span class="price">$15.50</span></dt>
+            <dd class="describtion">Four cheeses (mozzarella, parmesan, pecorino, jarlsberg)</dd>
+
+            <dt class="food">Chicken<span class="price">$17.00</span></dt>
+            <dd class="describtion">Fresh tomatoes, mozzarella, chicken, onions</dd>
+
+            <dt class="food">Pineapple'o'clock<span class="price">$16.50</span></dt>
+            <dd class="describtion">Fresh tomatoes, mozzarella, fresh pineapple, bacon, fresh basil</dd>
+
+            <dt class="food">Meat Town<span class="stickers" style="background-color: #f44336;">Hot!</span><span class="price">$20.00</span></dt>
+            <dd class="describtion">Fresh tomatoes, mozzarella, hot pepporoni, hot sausage, beef, chicken</dd>
+
+            <dt class="food">Parma<span class="stickers">New!</span><span class="price">$21.50</span></dt>
+            <dd class="describtion">Fresh tomatoes, mozzarella, parma, bacon, fresh arugula</dd>
+
+        </dl>
+    </div>
+</div>
+<div class="aboutcontainer">
+    <div class="aboutpg">
+    <h1>About</h1>
+        <p>The Pizza Restaurant was founded in blabla by Mr. Italiano in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <br>
+        <p><b>The Chef?</b> Mr. Italiano himself <img class="chef" src="8_uzduotiesIMG/chef.jpg"></p>
+        <br>
+        <p>We are proud of our interiors.</p>
+        <br>
+        <img src="8_uzduotiesIMG/onepage_restaurant.jpg">
+        <br>
+        <h1 id="hours">Opening hours</h1>
+
+        <div class="row">
+
+        <div class="hourscolumns">
+            <p>Mon & Tue CLOSED</p>
+            <p>Wednesday 10.00 - 24.00</p>
+            <p>Thursday 10:00 - 24:00</p>
+        </div>
+            <div class="hourscolumns">
+                <p>Friday 10:00 - 12:00</p>
+                <p>Saturday 10:00 - 23:00</p>
+                <p>Sunday Closed</p>
+
+
+
+        </div>
+
+        </div>
+
+    </div>
+
 </div>
 
+<div id="map"></div>
+
+<script>
+    function myMap() {
+        var mapCanvas = document.getElementById("map");
+        var mapOptions = {
+            center: new google.maps.LatLng(51.5, -0.2), zoom: 10
+        };
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+
+<div class="contactcontainer">
+    <div class="contactpg">
+    <h1>Contact</h1>
+    <br>
+    <p>Find us at some address at some place or call us at 05050515-122330</p>
+    <br>
+    <p>FYI! We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+    <br>
+    <p>Reserve a table, ask for today's special or just send us a message:</p>
+</div>
+</div>
 </body>
 </html>
