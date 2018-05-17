@@ -114,14 +114,30 @@
 
 <div class="contactcontainer">
     <div class="contactpg">
-    <h1>Contact</h1>
+    <h1 style="padding-bottom: 20px;">Contact</h1>
     <br>
     <p>Find us at some address at some place or call us at 05050515-122330</p>
     <br>
-    <p>FYI! We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
+        <p><span id="fyi">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
     <br>
-    <p>Reserve a table, ask for today's special or just send us a message:</p>
+        <p style="font-size: 36px"><b>Reserve</b> a table, ask for today's special or just send us a message:</p>
+
+        <div class="formcontainer">
+
+            <form class="forms" action="/action_page.php">
+                <input type="text" name="firstname" placeholder="Name" required>
+                <input type="number" name="peoplequantity" placeholder="How many people" required>
+                <input type="datetime-local" name="when" placeholder="Date and time" value="2017-11-16T20:00">
+                <input type="text" name="message" placeholder="Message\Special requirements" required>
+                <input id="submit" type="submit" value="Send message">
+
+            </form>
+
+        </div>
 </div>
 </div>
+<footer>
+    <h1>Powered by w3.css</h1>
+</footer>
 </body>
 </html>
