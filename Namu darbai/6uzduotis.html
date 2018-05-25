@@ -2,92 +2,95 @@
 <html>
 <head>
 	<style>
-	body {
-		font-family: "Georgia";
-		color:#aaaaaa;
-	}
+		body {
+			font-family: "Georgia";
+			color:#aaaaaa;
+		}
 
-	.container {
-		background-color: #f1f1f1;
-		width: 800px;
-		height: 347px;
-		margin: auto;
-	}
+		.container {
+			background-color: #f1f1f1;
+			width: 800px;
+			height: 347px;
+			margin: auto;
+		}
 
-	h3 {
-		padding:24px 0 0 300px;
-		font-weight: normal;
-	}
+		h3 {
+			padding:24px 0 0 300px;
+			font-weight: normal;
+		}
 
-	.forms {
-		height:207px;
-		width:690px;
-		margin:35px 0 0 10px;
-	}
+		.forms {
+			height:207px;
+			width:690px;
+			margin:35px 0 0 10px;
+		}
 
-	input {
-		
-		width: 331px;
-		height:40px;
-		border-radius: 5px;
-		border: none;
-		box-shadow: 1px 2px 1px 1px #e1e1e1;
-		padding: 12px 13px;
-		margin-bottom: 11px;
-	}
+		input {
 
-	.forms input {
-		box-sizing: border-box;
-		display: inline-block;
-		float:left;
-		margin-left: 40px;
-	}
+			width: 331px;
+			height:40px;
+			border-radius: 5px;
+			border: none;
+			box-shadow: 1px 2px 1px 1px #e1e1e1;
+			padding: 12px 13px;
+			margin-bottom: 11px;
+		}
 
-	textarea {
-		float: right;
-		height:130px;
-		width:334px;
-		border-radius: 5px;
-		border: none;
-		box-shadow: 1px 2px 1px 1px #e1e1e1;
-		position: absolute;
-		resize: none;
-		margin-left: 15px;
-		padding:10px 0 0 10px;
-		font-family: "Georgia";
-		color:#aaaaaa;
+		.forms input {
+			box-sizing: border-box;
+			display: inline-block;
+			float:left;
+			margin-left: 40px;
+		}
 
-	}
-	.button {
-		margin-top: 5px;
-		background-color: #e84c3d;
-		color: white;
-		width: 695px;
-		height: 37px;
-		clear: both;
-	}
+		textarea {
+			float: right;
+			height:130px;
+			width:334px;
+			border-radius: 5px;
+			border: none;
+			box-shadow: 1px 2px 1px 1px #e1e1e1;
+			position: absolute;
+			resize: none;
+			margin-left: 15px;
+			padding:10px 0 0 10px;
+			font-family: "Georgia";
+			color:#aaaaaa;
 
-	.button:hover {
-		background-color: #ff8f7d;
-	}
+		}
+		.button {
+			margin-top: 5px;
+			background-color: #e84c3d;
+			color: white;
+			width: 695px;
+			height: 37px;
+			clear: both;
+		}
 
-</style>
+		.button:hover {
+			background-color: #ff8f7d;
+		}
+
+	</style>
 </head>
 
 <body>
-	<div class="container">
-		<h3>Elegant Contact Form</h3>
+<div class="container">
+	<h3>Elegant Contact Form</h3>
 
-		<div class="forms">
-			<form action="/action_page.php">
-				<input type="text" id="fname" name="firstname" placeholder="Name">
-				<input type="text" id="mail" name="email" placeholder="Email Adress">
-				<input type="text" id="subject" name="subject" placeholder="Subject">
-				<div class="text">
-					<textarea>Message</textarea>
-				</div>
+	<div class="forms">
+		<form action="/">
+			<input type="text" id="fname" name="firstname" placeholder="Name">
+			<input type="text" id="mail" name="email" placeholder="Email Adress">
+			<input type="text" id="subject" name="subject" placeholder="Subject">
+			<div class="text">
+				<textarea>Message</textarea>
+			</div>
 
-				<input type="submit" class="button" value="Submit">
-			</body>
+			<input type="submit" class="button" value="Submit">
+		</form>
+	</div>
+</div>
+</body>
 
-			</html>
+</html>
