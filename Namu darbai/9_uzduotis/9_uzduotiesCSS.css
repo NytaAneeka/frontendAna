@@ -219,14 +219,7 @@ footer {
 }
 @media screen and (max-width: 766px) {
     .secondarycontainer {
-    text-align: center;
+        text-align: center;
     }
 }
-/*.navbar-expand-sm .navbar-toggler{*/
-/*display: block!important;;*/
-/*}*/
-/*.navbar-collapse.collapse {*/
-/*display: none!important;;*/
-/*}*/
-
 
