@@ -7,31 +7,39 @@
 .list-inline li i {
     padding:0 5px 0 0;
 }
+
 .list-inline ul, .list-inline li{
     margin-right: 35px
 }
+
 .col-sm-12.col-md-4.text-right, .list-inline.icons li {
     margin-right: 0;
 
 }
+
 .list-inline.icons i {
     font-size: 15px;
     margin-right: 5px;
 }
+
 ul.list-inline  {
     margin-top: 12px;
 }
+
 .header {
 
     border-bottom: 1px solid #e4e4e4;
 }
+
 .container.header2,.header {
     background-color: #f9f9f9;
 }
+
 .container.header2, .row .col-sm-12.col-md-12, .col-sm-12.col-md-8, .list-inline li, .list-inline a {
     color: #777777;
     font-size: 11px;
 }
+
 /* HEADER STYLE ENDS HERE */
 
 /* NAVBAR STYLE */
@@ -44,19 +52,12 @@ ul.list-inline  {
     z-index: 50;
     height: 75px;
 }
-/*.sticky {*/
-/*position: fixed;*/
-/*top: 0;*/
-/*left: 0;*/
-/*}*/
 
 .navbar.navbar-default{
     background-color: transparent;
     border: none;
     z-index: 50;
 }
-
-
 
 .navbar-brand {
     height: auto!important;
@@ -72,6 +73,7 @@ ul.list-inline  {
     font-size: 12px;
     font-weight: bold;
 }
+
 .custom-ul li {
     padding-right: 10px;
 }
@@ -88,6 +90,7 @@ a.active  {
 .custom-ul a:hover {
     color: #1ccdca!important;
 }
+
 .custom-ul a:focus {
     color: #777!important;
 }
@@ -97,6 +100,7 @@ form.navbar-form.navbar-left {
     /*margin-right: 20px;*/
     display: inline-block;
 }
+
 .btn.btn-default {
     position:absolute;
     left: 10px;
@@ -111,15 +115,18 @@ form.navbar-form.navbar-left {
     padding:2px;
     color: #1ccdca;
 }
+
 .form-control {
     border-radius: 50px;
     font-size: 13px;
     padding: 18px 25px;
 }
+
 .form-group {
     position: relative;
 
 }
+
 input::placeholder {
     padding-left: 15px;
 }
@@ -131,6 +138,7 @@ input::placeholder {
     border-radius: 50px;
     color: #818b8d;
 }
+
 /* NAVBAR STYLE ENDS HER */
 
 /* CAROUSEL STYLE */
@@ -156,11 +164,11 @@ input::placeholder {
     color: white;
 }
 
-
 .carousel-control.left, .carousel-control.right {
     background-image: none;
     width: 5%;
 }
+
 .carousel-content.container {
     position: absolute;
     bottom: 60%;
@@ -170,11 +178,13 @@ input::placeholder {
     text-shadow: 0 1px 2px rgba(0,0,0,.6);
 
 }
+
 .carousel-content.container h4 {
     padding: 15px;
     /*background-color: red;*/
     width: 22%;
 }
+
 .carousel-content.container h4 {
     width: 22%;
     height: 50px;
@@ -213,20 +223,27 @@ input::placeholder {
         opacity: 1;
     }
 }
+
 .test {
     height: 1800px;
 }
 /* CAROUSEL STYLE ENDS HERE*/
 
+
+/*BEST HTML container style*/
+
 .dark.container-fluid {
     background-color: #1B2228;
-
 }
+
 
 .just-some-text {
     padding: 30px 0 30px 0;
     text-align: center;
 }
+/*BEST HTML container style ENDS HERE*/
+
+/* SUPER CODING CONTAINER*/
 
 .super-coding {
     padding: 100px 0 100px 0;
@@ -253,8 +270,103 @@ input::placeholder {
     border: 1px solid #1ccdca;
     border-radius: 50%;
 }
+
 .padding-text {
     padding-left: 100px;
     line-height: 1.5;
 }
+/* SUPER CODING CONTAINER ENDS HERE*/
 
+
+/* SKILLS CONTAINER STYLE */
+
+.skills.container-fluid {
+    background-color: #3C464D;
+}
+
+.skills.container-fluid h2 {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.skills-column-container {
+    padding: 0;
+}
+
+.skills.container-fluid p {
+    color:rgba(255, 255, 255, 0.7);
+}
+
+.skills-column-container.col-md-12 {
+    padding: 0;
+    background: url("test_images/bg_header4.jpg") no-repeat ;
+    background-size: cover;
+}
+
+.skills-columns {
+    padding: 70px 70px 50px 60px;
+    background-color: #3C464D;
+}
+
+.progress {
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 30px;
+    border-radius: 0;
+}
+
+.progress p {
+    margin: 0;
+    padding: 5px 10px;
+    float: left;
+}
+
+.progress span {
+    float: right;
+    padding: 5px 10px;
+}
+
+.web-design {
+    background-color: rgb(11, 172, 184);
+}
+
+.programming {
+    background-color: rgb(58, 148, 178);
+}
+
+.html-css {
+    background-color: #1ccdca;
+}
+
+.wordpress {
+    background-color: rgb(0, 193, 148);
+}
+
+.joomla {
+    background-color: rgb(231, 76, 60);
+}
+/* SKILLS CONTAINER STYLE ENDS HERE */
+
+.dot {
+    height: 10px;
+    width: 10px;
+    border: 1px solid #1cc6df;
+    border-radius: 50%;
+    display: inline-block;
+    float:left;
+}
+
+.border-line {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    width: 35%;
+    padding: 4px 0 0 10px;
+    margin-left: 10px;
+}
+
+.green-border {
+    border-bottom: 1px solid #1cc6df;
+    width: 15%;
+    margin-top: -1px;
+    margin-left: 10px;
+}
