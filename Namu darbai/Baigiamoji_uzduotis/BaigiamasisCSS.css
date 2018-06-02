@@ -346,7 +346,12 @@ input::placeholder {
 .joomla {
     background-color: rgb(231, 76, 60);
 }
+
 /* SKILLS CONTAINER STYLE ENDS HERE */
+
+.why-us-column {
+    padding: 100px 0 80px 0;
+}
 
 .dot {
     height: 10px;
@@ -369,4 +374,65 @@ input::placeholder {
     width: 15%;
     margin-top: -1px;
     margin-left: 10px;
+}
+
+.nav.nav-tabs {
+    padding-top: 30px;
+}
+
+.tab-content {
+    border: 1px solid #cfcfcf;
+    border-top: none;
+    line-height: 2;
+    padding:30px 30px 30px 20px;
+}
+
+.zoom-img {
+    width: 250px;
+    height: 250px;
+    float: right;
+    transition: transform 1s;
+}
+
+.quality-list {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.presentation a.active2 {
+    border-bottom: none!important;
+    border-left: none!important;
+}
+
+li.presentation a.first {
+    border-left:1px solid #e5e5e5;
+}
+
+li.presentation a.first.active2 {
+    border-left:1px solid #e5e5e5!important;
+}
+
+li.presentation a {
+    border-right:1px solid #e5e5e5;
+    border-top:1px solid #e5e5e5;
+}
+
+.nav-tabs>li>a{
+    border-radius: 0;
+    color: #888;
+    margin-right: 0;
+    margin-bottom: -2px;
+}
+
+.active2 {
+    border-top: 3px solid #1ccdca!important;
+}
+
+.quality-list li::before{
+    content: url("test_images/arrows_mg_small.png");
+    padding-right: 10px;
+}
+
+.zoom-img:hover {
+    transform: scale(1.5);
 }
