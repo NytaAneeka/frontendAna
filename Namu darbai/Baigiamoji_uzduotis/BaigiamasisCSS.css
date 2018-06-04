@@ -227,6 +227,11 @@ input::placeholder {
 .test {
     height: 1800px;
 }
+
+.carousel-caption {
+    left: 0;
+    bottom: 60%;
+}
 /* CAROUSEL STYLE ENDS HERE*/
 
 
@@ -247,6 +252,7 @@ input::placeholder {
 
 .super-coding {
     padding: 100px 0 100px 0;
+    background-color: rgba(202, 206, 205, 0.2);
 }
 
 .mycolumns {
@@ -349,6 +355,9 @@ input::placeholder {
 
 /* SKILLS CONTAINER STYLE ENDS HERE */
 
+
+
+/* CHOOSE US CONTAINER STYLE */
 .why-us-column {
     padding: 100px 0 80px 0;
 }
@@ -385,6 +394,7 @@ input::placeholder {
     border-top: none;
     line-height: 2;
     padding:30px 30px 30px 20px;
+    background-color: white;
 }
 
 .zoom-img {
@@ -392,6 +402,13 @@ input::placeholder {
     height: 250px;
     float: right;
     transition: transform 1s;
+
+}
+
+.img-overflow {
+    width: 250px;
+    float: right;
+    overflow: hidden;
 }
 
 .quality-list {
@@ -415,6 +432,7 @@ li.presentation a.first.active2 {
 li.presentation a {
     border-right:1px solid #e5e5e5;
     border-top:1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .nav-tabs>li>a{
@@ -422,6 +440,11 @@ li.presentation a {
     color: #888;
     margin-right: 0;
     margin-bottom: -2px;
+    background-color: white;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    color: #1ccdca;
 }
 
 .active2 {
@@ -435,4 +458,146 @@ li.presentation a {
 
 .zoom-img:hover {
     transform: scale(1.5);
+}
+
+.my-accordion {
+    padding-top: 30px;
+    color: #666666;
+}
+
+.panel-default>.panel-heading{
+    background-color: white;
+    color: #888;
+}
+
+.accordion-toggle {
+    position: relative;
+    display: block;
+    text-decoration: none!important;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.accordion-toggle::before, .accordion-toggle::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 14px;
+    height: 1px;
+    margin-top: -2px;
+    background-color: #cecece;
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transition: all 0.25s;
+    transition: all 0.25s;
+}
+
+.accordion-toggle::before {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    opacity: 0;
+}
+
+.accordion-toggle.collapsed::before {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    opacity: 1;
+}
+
+
+.accordion-toggle.collapsed::after {
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+}
+
+.panel-heading.active3 {
+
+    background-color: #1ccdca!important; ;
+    color: white;
+    text-decoration: none!important;
+}
+
+.panel-heading.active3 .accordion-toggle::after{
+    background-color:white;
+}
+/* CHOOSE US CONTAINER STYLE ENDS HERE*/
+
+
+/* RUNNING NUMBERS STYLE*/
+
+.numbers {
+    text-align: center;
+    line-height: 3;
+    padding: 100px 0 50px 0;
+    border: 1px solid #e4e4e4;
+    border-right: none;
+    border-left: none;
+}
+
+.numbers .far, .fas, .team-header .far {
+    color: #1ccdca;
+}
+
+.Count {
+    font-size: 28px;
+    font-weight: bold;
+    color: #666;
+}
+.my-numbers p {
+    font-size: 22px;
+    color: #666;
+}
+
+/* RUNNING NUMBERS STYLE ENDS HERE*/
+
+
+/* MEET OUR TEAM STYLE */
+.team {
+    background-color: rgba(202,206,205,0.2);
+}
+.team-header {
+    text-align: center;
+}
+.team-header.col-md-12 {
+    padding: 50px;
+}
+/*.line-left {*/
+    /*background: rgba(0, 0, 0, 0.07);*/
+    /*bottom: 30px;*/
+    /*left: 300px;*/
+    /*height: 1px;*/
+    /*width: 33%;*/
+/*}*/
+
+/*.line-left {*/
+    /*background: rgba(0, 0, 0, 0.07);*/
+    /*bottom: 15px;*/
+    /*right: 3000px;*/
+    /*height: 1px;*/
+    /*position: absolute;*/
+    /*width: 33%;*/
+/*}*/
+
+.second-carousel {
+    text-align: center;
+}
+.carousel-pics {
+    width: 40%;
+    border: 1px solid #cfcfcf;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.pic-left {
+    float: left;
+}
+
+.pic-right {
+    float: right;
 }
