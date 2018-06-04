@@ -252,7 +252,7 @@ input::placeholder {
 
 .super-coding {
     padding: 100px 0 100px 0;
-    background-color: rgba(202, 206, 205, 0.2);
+    background-color: #f9fafc;
 }
 
 .mycolumns {
@@ -559,7 +559,7 @@ li.presentation a {
 
 /* MEET OUR TEAM STYLE */
 .team {
-    background-color: rgba(202,206,205,0.2);
+    background-color: #f9fafc;
 }
 .team-header {
     text-align: center;
@@ -568,36 +568,66 @@ li.presentation a {
     padding: 50px;
 }
 /*.line-left {*/
-    /*background: rgba(0, 0, 0, 0.07);*/
-    /*bottom: 30px;*/
-    /*left: 300px;*/
-    /*height: 1px;*/
-    /*width: 33%;*/
+/*background: rgba(0, 0, 0, 0.07);*/
+/*bottom: 30px;*/
+/*left: 300px;*/
+/*height: 1px;*/
+/*width: 33%;*/
 /*}*/
 
 /*.line-left {*/
-    /*background: rgba(0, 0, 0, 0.07);*/
-    /*bottom: 15px;*/
-    /*right: 3000px;*/
-    /*height: 1px;*/
-    /*position: absolute;*/
-    /*width: 33%;*/
+/*background: rgba(0, 0, 0, 0.07);*/
+/*bottom: 15px;*/
+/*right: 3000px;*/
+/*height: 1px;*/
+/*position: absolute;*/
+/*width: 33%;*/
 /*}*/
 
-.second-carousel {
-    text-align: center;
-}
+
 .carousel-pics {
-    width: 40%;
+    width: 30%;
     border: 1px solid #cfcfcf;
     border-radius: 50%;
     padding: 5px;
 }
 
-.pic-left {
-    float: left;
-}
-
 .pic-right {
     float: right;
+    position: relative;
 }
+
+.pic-left {
+    float: left;
+    position: relative;
+}
+
+.team-describtion-left {
+    width: 65%;
+    float: left;
+    text-align: right;
+}
+.team-describtion-right {
+    width: 65%;
+    float: right;
+    text-align: left;
+}
+
+.team-describtion-right p, .team-describtion-left p {
+    color: #999;
+}
+
+.my-carousel-indicators {
+    bottom: -70px!important;
+}
+
+.team.container-fluid {
+    padding-bottom: 100px;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #1ccdca;
+    border: 3px solid white;
