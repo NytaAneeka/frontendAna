@@ -565,7 +565,7 @@ li.presentation a {
     text-align: center;
 }
 .team-header.col-md-12 {
-    padding: 50px;
+    padding: 80px 50px 50px 50px;
 }
 /*.line-left {*/
 /*background: rgba(0, 0, 0, 0.07);*/
@@ -625,9 +625,153 @@ li.presentation a {
     padding-bottom: 100px;
 }
 
+.carousel-indicators li {
+    background-color: white;
+    border-color: #ddd;
+}
+
 .carousel-indicators .active {
     width: 12px;
     height: 12px;
     margin: 0;
     background-color: #1ccdca;
     border: 3px solid white;
+}
+
+.team-icons i{
+    color: #777;
+    float:left;
+    width:100%;
+    padding-top:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+    text-align:center;
+}
+.dot-team-icons:hover i {
+
+    color: #1ccdca!important;
+}
+
+.dot-team-icons {
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: inline-block;
+}
+.dot-team-icons:hover {
+    border: 1px solid #1ccdca;
+}
+/* MEET OUR TEAM STYLE ENDS HERE*/
+
+/*OUR SERVCES CONTAINER STYLE */
+
+#looking-pic {
+    width: 100%;
+}
+
+.dot-services-icons {
+    float: left;
+    height: 85px;
+    width: 85px;
+    background-color: #1ccdca;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 20px 20px 20px;
+
+}
+
+.dot-services-icons i{
+    float:left;
+    width:100%;
+    padding-top:50%;
+    line-height:1em;
+    margin-top:-0.5em;
+    text-align:center;
+    font-size: 40px;
+    color: white;
+}
+
+.services-describtion {
+    /*float: right;*/
+    position: relative;
+    line-height: 2;
+    padding-bottom: 20px;
+}
+.services-hover:hover h4{
+    color: #1ccdca;
+}
+
+.services-row {
+    padding: 50px 0 50px 0;
+}
+
+.our-services {
+    padding: 80px 0 0 0;
+
+}
+
+.services-icons {
+    top: 40px;
+}
+a.our-service-icon {
+    z-index: 1;
+    position: relative;
+    float: left;
+}
+/*OUR SERVCES CONTAINER STYLE ENDS HERE*/
+
+
+/*PRICING PLAN STYLE*/
+
+
+
+
+/*PRICING PLAN STYLE ENDS HERE*/
+.add-border.container-fluid{
+    padding: 0;
+    border-top: 3px solid #f9fafc;
+}
+
+.pricing-con.container {
+    text-align: center;
+    padding: 80px 0 50px 0;
+}
+
+.pricing-table {
+    list-style-type: none;
+    box-shadow: 0 0 0 1px #e4e4e4 inset;
+    padding: 1px;
+    border-radius: 5px;
+    margin-top: 100px;
+
+}
+.pricing-table li {
+    border-top: 1px solid #E4E4E4;
+    padding: 15px;
+    color:#878787;
+}
+
+.pricing-table .item-name {
+    font-size: 17px;
+    font-weight: bold;
+    color: #1ccdca;
+}
+
+.pricing-table .item-name, .pricing-table .order-button {
+
+    padding: 50px;
+}
+
+.check, .cross {
+    padding-right: 10px;
+}
+.check {
+    color: #92C135;
+}
+
+.cross {
+    color: red;
+}
