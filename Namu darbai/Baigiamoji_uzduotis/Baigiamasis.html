@@ -95,7 +95,7 @@
                 </ul>
                 <form class="navbar-form navbar-left">
                     <div class="form-group">
-                        <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
+                        <button type="submit" class="search-bttn btn btn-default"><i class="fas fa-search"></i></button>
                         <input type="text" class="form-control" placeholder="Search here ...">
                     </div>
 
@@ -717,5 +717,171 @@
 
 
 <!-- PRICING PLANS CONTAINER ENDS HERE-->
+
+
+
+<!-- CONTACT US CONTAINER -->
+
+
+<div class="contact container-fluid" style="background-color: #f9fafc;">
+
+    <div class="container">
+        <h3 style="font-weight: bold;">CONTACT US </h3>
+        <h3 id="in-touch"><i class="far fa-envelope-open"></i> GET IN TOUCH </h3>
+
+
+        <form class="form-horizontal" action="/">
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="name">Name <span style="color: red;">*</span></label>
+                <div class="col-sm-10">
+                    <input type="text" class="contact-form form-control" id="name" autocomplete="name" placeholder="Full Name" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="email">Email <span style="color: red;">*</span></label>
+                <div class="col-sm-10">
+                    <input type="email" class="contact-form form-control" id="email" autocomplete="email" placeholder="mail@sitename.com" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="subject">Subject</label>
+                <div class="col-sm-10">
+                    <input type="text" class="contact-form form-control" id="subject" >
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-sm-2" for="comment">Message <span style="color: red;">*</span></label>
+                <div class="col-sm-10">
+                    <textarea name="foo" class="contact-form form-control" rows="5" id="comment" required></textarea>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="contact-submit btn btn-default"><i class="submit-check fas fa-check"></i>Send Your Message</button>
+                </div>
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+<!-- CONTACT US CONTAINER ENDS HERE-->
+
+<!-- OUR LOCATION CONTAINER -->
+
+<div class="location container-fluid">
+    <h4>OUR LOCATION</h4>
+
+    <div id="map" style="width:100%;height:350px;"></div>
+
+    <script>
+        function myMap() {
+            let mapCanvas = document.getElementById("map");
+            let mapOptions = {
+                center: new google.maps.LatLng(-12.043333, -77.028333), zoom: 15
+            };
+            let map = new google.maps.Map(mapCanvas, mapOptions);
+
+
+        }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCx9aI6hiPyh60HPd2RxVekMSTDaC2eIac&callback=myMap"></script>
+</div>
+
+<!-- OUR LOCATION CONTAINER ENDS HERE-->
+
+
+<!--FOOTER CONTAINER-->
+
+<div class="footer container-fluid">
+
+    <div class="footer-columns container">
+
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-3">
+                    <div class="with-border row">
+                        <h4>COMPANY INFO</h4>
+                        <img src="test_images/logo-light.png">
+                        <p>There are many Purchase Now There are many variations of passages of Lorem Ipsum available, but the majority.</p>
+                        <a href="#" class="black-read-more-bttn btn btn-default" role="button"> > <i>Read more</i></a>
+                    </div>
+
+                    <div class="without-border row">
+
+                        <h4>NEWSLETTER SIGNUP</h4>
+                        <p>By subscribing to our mailing list you will always be update with the latest news :</p>
+
+                        <form id="newsletter-sub" method="get">
+                            <div class="subscribe form-group">
+                                <button type="submit" class="subscribe-btn btn">
+                                    <i class="far fa-paper-plane"></i>
+                                </button>
+                                <input type="email" class="sub-email form-control" id="exampleInputEmail1" placeholder="Your Email Here ...">
+                            </div>
+                        </form>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-3" style="padding-left: 30px;">
+                    <h4>RECENT POSTS</h4>
+
+                    <ul class="recent-posts-list">
+
+                        <li><a href="#">
+                            <span class="ahref-imgs"><img src="test_images/thumb1.jpg"></span>
+                            <span class="ahref-text">BEST HTML5 THEME</span>
+                        </a></li>
+
+                        <li><a href="#">
+                            <span class="ahref-imgs"><img src="test_images/thumb2.jpg"></span>
+                            <span class="ahref-text">BEST HTML5 THEME</span>
+                        </a></li>
+
+                        <li><a href="#">
+                            <span class="ahref-imgs"><img src="test_images/thumb3.jpg"></span>
+                            <span class="ahref-text">BEST HTML5 THEME</span>
+                        </a></li>
+
+                        <li><a href="#">
+                            <span class="ahref-imgs"><img src="test_images/thumb4.jpg"></span>
+                            <span class="ahref-text">BEST HTML5 THEME</span>
+                        </a></li>
+
+                    </ul>
+
+                </div>
+
+                <div class="col-md-3">
+
+                </div>
+
+                <div class="col-md-3">
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+<!--FOOTER CONTAINER ENDS HERE-->
+
 </body>
 </html>
