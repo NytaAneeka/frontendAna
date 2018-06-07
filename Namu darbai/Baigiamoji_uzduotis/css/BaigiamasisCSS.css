@@ -3,9 +3,6 @@
     font-family: "Open Sans", sans-serif;
 
 }
-body, .container, .container-fluid {
-    line-height: 2;
-}
 h3 {
     font-weight: bold;
     padding-bottom: 10px;
@@ -43,7 +40,7 @@ ul.list-inline  {
     background-color: #f9f9f9;
 }
 
-.container.header2, .row .col-sm-12.col-md-12, .col-sm-12.col-md-8, .list-inline li, .list-inline a {
+.container.header2, .row .col-sm-12.col-md-12, .col-sm-12.col-md-8, .list-inline li, .list-inline a, i.grey.fas {
     color: #777777;
     font-size: 11px;
 }
@@ -57,7 +54,7 @@ ul.list-inline  {
     position: sticky!important;
     top: 0;
     background: white;
-    z-index: 50;
+    z-index: 16;
     height: 75px;
 }
 
@@ -337,7 +334,7 @@ i.fa.fa-puzzle-piece {
 
 .skills-column-container.col-md-12 {
     padding: 0;
-    background: url("test_images/bg_header4.jpg") no-repeat ;
+    background: url("../test_images/bg_header4.jpg") no-repeat ;
     background-size: cover;
 }
 
@@ -361,6 +358,18 @@ i.fa.fa-puzzle-piece {
 
 .progress-bar {
     position: relative;
+    transition: width 2s ease;
+}
+
+.progressbar-front-text {
+    float: right;
+    padding-top: 5px;
+    margin-right: 5px;
+    color: rgba(255, 255, 255, 0.7);
+    width: 30px!important;
+}
+.progressbar-back-text {
+    display: none!important;
 }
 
 .skill-counter-p {
@@ -505,7 +514,7 @@ li.presentation a {
 }
 
 .quality-list li::before{
-    content: url("test_images/arrows_mg_small.png");
+    content: url("../test_images/arrows_mg_small.png");
     padding-right: 10px;
 }
 
@@ -597,7 +606,7 @@ li.presentation a {
     color: #1ccdca;
 }
 
-.Count {
+.count {
     font-size: 28px;
     font-weight: bold;
     color: #666;
@@ -942,11 +951,11 @@ textarea[name=foo] {
     color:#1ccdca;
 }
 
-.with-border.row {
+.with-border {
     padding-bottom: 30px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-.without-border.row {
+.without-border {
     padding-top: 30px;
 }
 .subscribe-btn.btn, .sub-email.form-control {
@@ -1005,7 +1014,6 @@ textarea[name=foo] {
 }
 
 .tag-content.col-md-3 a{
-    float: left;
     margin: 5px 5px 0 0;
 }
 
@@ -1015,16 +1023,17 @@ textarea[name=foo] {
     color: #989898;
     font-size: 12px;
     overflow: hidden;
-    padding: 9px 16px;
+    padding: 9px 11px;
     font-weight: 500;
     display: inline-block;
 }
 
 .flicker-img {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     position: relative;
 }
+
 /*.overlay-container {*/
 /*position: relative;*/
 /*width: 70px;*/
@@ -1075,7 +1084,11 @@ textarea[name=foo] {
 
 
 .author-soc {
-    padding-right: 10px;
+    padding-right: 8px;
     color: #9f9f9f;
+}
+
+#newsletter-sub .form-group {
+    margin-bottom: 0;
 }
 /*FOOTER CONTAINER STYLE ENDS HERE*/
