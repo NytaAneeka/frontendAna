@@ -38,13 +38,56 @@
             <div class="col-sm-12 col-md-12">
                 <div class="col-sm-12 col-md-8">
                     <ul class="list-inline">
-                        <li><i class="grey fas fa-globe"></i><a href="#">ENGLISH</a></li>
-                        <li><i class="grey fas fa-user-lock"></i><a href="#">LOGIN</a></li>
-                        <li><i class="grey fas fa-phone"></i>CALL US: (123) 456 - 7890</li>
+                        <li>
+                            <i class="grey fas fa-globe"></i>
+                            <a href="#">ENGLISH</a>
+                        </li>
+                        <li>
+                            <i class="grey fas fa-user-lock"></i>
+                            <!-- Button trigger modal -->
+                            <a href="#" role="button" class="btn btn-link" data-toggle="modal" data-target="#myModal">LOGIN
+                            </a>
+                        </li>
+                        <li>
+                            <i class="grey fas fa-phone"></i>CALL US: (123) 456 - 7890</li>
                         <li><i class="grey far fa-comment"></i>SUPPORT: (123) 456 - 7890</li>
                     </ul>
                 </div>
 
+
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                            </div>
+                            <div class="modal-body">
+
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2" for="username"><i class="far fa-user"></i></label>
+                                    <div class="unset-float col-sm-10">
+                                        <input type="text" class="login-form form-control" id="username" autocomplete="username" placeholder="Username" required>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="col-sm-2" for="pw"><i class="grey fas fa-key"></i></label>
+                                    <div class="unset-float col-sm-10">
+                                        <input type="password" class="login-form form-control" id="pw" autocomplete="pw" placeholder="Password" required>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
 
                 <div class="col-sm-12 col-md-4 text-right">
@@ -85,7 +128,20 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="custom-ul nav navbar-nav">
-                    <li><a  class="active" href="#">HOME <span class="sr-only">(current)</span></a></li>
+                    <!--<li><a  class="active" href="#">HOME <span class="sr-only">(current)</span></a></li>-->
+
+
+                    <li class="dropdown">
+                        <a  class="active dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">HOME <span class="sr-only">(current)</span></a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                        </ul>
+                    </li>
+
                     <li><a href="#">PAGES</a></li>
                     <li><a href="#">SLIDERS</a></li>
                     <li><a href="#">SHORTCODES</a></li>
@@ -93,19 +149,51 @@
                     <li><a href="#">BLOG</a></li>
                     <li><a href="#">SHOP</a></li>
                     <li><a href="#">TEAM</a></li>
-
                 </ul>
+
+                <form class="navbar-form navbar-left display-collapse">
+                    <div class="form-group">
+                        <button type="submit" class="search-bttn btn btn-default"><i class="fas fa-search"></i></button>
+                        <input type="text" class="form-control" placeholder="Search here ...">
+                    </div>
+                </form>
+
+                <button class="shopping-cart-icon display-collapse">
+                    <i class="fa fa-shopping-cart"></i>
+                </button>
+
+                <div id="toggleContainer" class="d-none">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Supposed to be shopping cart...</h2>
+                            <p>Oh well,not enough time</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!-- /.navbar-collapse -->
+
+            <div class="d-none">
                 <form class="navbar-form navbar-left">
                     <div class="form-group">
                         <button type="submit" class="search-bttn btn btn-default"><i class="fas fa-search"></i></button>
                         <input type="text" class="form-control" placeholder="Search here ...">
                     </div>
-
                 </form>
-                <div class="shopping-cart-icon">
+
+                <button class="shopping-cart-icon">
                     <i class="fa fa-shopping-cart"></i>
+                </button>
+
+                <div id="toggleContainer2" class="d-none">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Supposed to be shopping cart...</h2>
+                            <p>Oh well,not enough time</p>
+                        </div>
+                    </div>
                 </div>
-            </div><!-- /.navbar-collapse -->
+            </div>
 
         </nav>
     </div>
@@ -273,7 +361,7 @@
     <div class="choose-us container">
         <div class="why-us-column col-md-12">
 
-            <div class="choose col-xs-12 col-md-6">
+            <div class="choose hover-board col-xs-12 col-md-6">
                 <h4>WHY CHOOSE US?</h4>
                 <div class="lines-left">
                     <span class="dot"></span>
@@ -348,7 +436,7 @@
             </div>
 
 
-            <div class="work col-xs-12 col-md-6">
+            <div class="work hover-board col-xs-12 col-md-6">
                 <h4>WHY WORK WITH US?</h4>
                 <div class="lines-right">
                     <span class="dot"></span>
@@ -619,7 +707,7 @@
 <!-- OUR SERVICES CONTAINER -->
 
 <div class="our-services container">
-    <h3 style="text-align: center; font-weight: bold">OUR SERVICES</h3>
+    <h3 style="">OUR SERVICES</h3>
 
     <div class="services-row row">
 
@@ -809,7 +897,7 @@
 
         <div class="row">
             <div class="footer-columns col-md-12">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="with-border">
                         <h4>COMPANY INFO</h4>
                         <img src="test_images/logo-light.png">
@@ -833,7 +921,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-3 col-sm-6" style="padding-left: 30px;">
+                <div class="col-md-3 col-sm-6 col-xs-12" style="padding-left: 30px;">
                     <h4>RECENT POSTS</h4>
 
                     <ul class="recent-posts-list">
@@ -875,7 +963,7 @@
 
                 </div>
 
-                <div class="tag-content col-md-3 col-sm-6">
+                <div class="tag-content col-md-3 col-sm-6 col-xs-12">
                     <div class="with-border">
                         <h4>CLOUD TAGS</h4>
 
@@ -931,7 +1019,7 @@
                 </div>
 
 
-                <div class="tag-content col-md-3 col-sm-6">
+                <div class="tag-content col-md-3 col-sm-6 col-xs-12">
                     <div class="with-border">
                         <h4>BEST AUTHOR</h4>
 
@@ -956,7 +1044,7 @@
 
                         <h4>CUSTOM VIDEO</h4>
                         <div class="video">
-                            <iframe src="https://player.vimeo.com/video/29193046" width="250" height="170" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                            <iframe src="https://player.vimeo.com/video/29193046" width="250" height="170" frameborder="0" allowfullscreen></iframe>
 
                         </div>
 
